@@ -112,15 +112,18 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 5rem 6rem;
+  //  padding: 5rem 6rem;
+    padding: 0px 0px;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+ //   padding: 3rem 4rem;
+     padding: 0px 0px;
   }
 
   @include small {
-    padding: 2rem 1rem;
+ //   padding: 2rem 1rem;
+     padding: 0px 0px;
   }
 }
 
@@ -129,7 +132,8 @@ a {
   margin-bottom: 0.1rem;
 
   @include large {
-    font-size: 3.25rem;
+  //  font-size: 3.25rem;
+     font-size: 16px;
   }
 
   @include medium {
@@ -151,11 +155,13 @@ a {
   }
 
   @include medium {
-    font-size: 1.15rem;
+   // font-size: 1.15rem;
+    font-size: 12px;
   }
 
   @include small {
-    font-size: 1rem;
+  //  font-size: 1rem;
+    font-size: 8px;
   }
 }
 
